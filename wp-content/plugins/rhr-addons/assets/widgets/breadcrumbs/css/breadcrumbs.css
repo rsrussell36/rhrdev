@@ -1,0 +1,45 @@
+
+.elementor-rhr-breadcrumbs .rhr-breadcrumb {
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    background: transparent;
+}
+.elementor-rhr-breadcrumbs .rhr-breadcrumb > li {
+	padding: 0 5px 0 0;
+    display: inline-block;
+    color: #000;
+}
+.elementor-rhr-breadcrumbs ul.rhr-breadcrumb li,
+.elementor-rhr-breadcrumbs .rhr-breadcrumb li a {
+    font-family: gesta,sans-serif;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    text-transform: capitalize;
+    position: relative;
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.elementor-rhr-breadcrumbs .rhr-breadcrumb li a {
+    color: rgba(0,0,0,.5);
+    -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.elementor-rhr-breadcrumbs .rhr-breadcrumb li .rhr-separator {
+    color: #d1d3d4;
+}
+
+.elementor-rhr-breadcrumbs .rhr-breadcrumb li a:hover {
+    color: #ef4050
+}
+.elementor-rhr-breadcrumbs .rhr-breadcrumb li a .rhr-breadcrumb-icon{
+	display: inline-block;
+	margin-right: 5px;
+}
+.elementor-rhr-breadcrumbs .rhr-breadcrumb li .rhr-separator i, .elementor-rhr-breadcrumbs .rhr-breadcrumb li .rhr-separator svg{
+    display: inline-block;
+}

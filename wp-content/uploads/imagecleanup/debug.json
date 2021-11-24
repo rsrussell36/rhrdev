@@ -1,0 +1,17 @@
+[0.0069] Info: WP_Query results written to log
+[0.0000] Registered sizes: ["thumbnail","medium","medium_large","large","1536x1536","2048x2048","full"]
+[0.0001] Meta indexed so far: 1 / 501
+[0.0006] Sample meta:
+{"width":1152,"height":550,"file":"2021\/09\/1152x550px.jpg","sizes":{"medium_large":{"file":"1152x550px-768x367.jpg","width":768,"height":367,"mime-type":"image\/jpeg"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0","keywords":[]}}
+[0.2821] Meta indexed so far: 501 / 501
+[0.2919] Info: Valid and Invalid meta results written to log
+[0.0048] Info: Loaded attachments to memory [2 mb]
+[0.0209] Info: 1808 Images found [2 mb]
+[0.0795] Info: 129 Invalid images found [4 mb]
+[0.0882] Info: Retrieved attachment images from DB [4 mb]
+[0.2507] Info: Backup meta results written to log [4 mb]
+[0.0003] Posts checked for used images 1/60
+[0.0425] Info: Invalid post image meta results written to log
+[0.0785] Info: Invalid script image meta results written to log
+[0.3766] Info: Invalid referenced image meta results written to log
+[0.3813] Info: Unreferenced image file results written to log

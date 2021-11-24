@@ -1,0 +1,21 @@
+.rhr-section-parallax-layer {
+    position: absolute;
+    pointer-events: none;
+}
+.rhr-section-parallax-layer .rhr-parallax-graphic {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    max-width: initial !important;
+}
+
+.rhr-invisible {
+    visibility: hidden;
+}
+.parallax-multi-section {
+    transition: none !important;
+}
+.rhr-section-parallax-type-tilt {
+    pointer-events: auto !important;
+    z-index: 99999;
+}

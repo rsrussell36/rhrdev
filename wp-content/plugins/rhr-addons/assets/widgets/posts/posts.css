@@ -1,0 +1,251 @@
+.elementor-rhr-posts .rhr_blog_item.thumbnail-zoom_in_img img {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-zoom_in_img:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.elementor-rhr-posts .rhr_blog_item.thumbnail-zoom_out_img img {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-zoom_out_img:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-slide_img:hover img {
+    -webkit-transform: translateX(0) scale(1.1);
+  -ms-transform: translateX(0) scale(1.1);
+  transform: translateX(0) scale(1.1);
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-rotate_img img {
+  -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    transition: 0.3s ease-in-out
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-rotate_img:hover img {
+    -webkit-transform: rotate(15deg) scale(1.4);
+    transform: rotate(15deg) scale(1.4);
+    -webkit-transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-rotate_in_img img {
+  -webkit-transform: rotate(15deg) scale(1.4);
+  transform: rotate(15deg) scale(1.4);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-rotate_in_img:hover img {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-blur_out_img img {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-blur_out_img:hover img {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  -webkit-transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-blur_img img {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-blur_img:hover img {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-gray_scale_img img {
+  -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-gray_scale_img:hover img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-sepia_img img {
+  -webkit-filter: sepia(0);
+  filter: sepia(0);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-sepia_img:hover img {
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-blur_gray_scale_img img {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-blur_gray_scale_img:hover img {
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-opacity_one_img img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-opacity_one_img:hover img {
+  opacity: 0.5;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-opacity_two_img {
+  background: #1abc9c;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-opacity_two_img img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-opacity_two_img:hover img {
+  opacity: 0.5;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-flashing_img:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-shine_img {
+  position: relative;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-shine_img::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-shine_img:hover::before {
+  -webkit-animation: shine 0.75s;
+  animation: shine 0.75s;
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-circle_img {
+  position: relative;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-circle_img::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.elementor-rhr-posts .rhr_blog_item.thumbnail-circle_img:hover::before {
+  -webkit-animation: circle 0.75s;
+  animation: circle 0.75s;
+}
+@-webkit-keyframes circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+@keyframes circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+
+.elementor-rhr-posts .rhr-pagination{
+margin-bottom: 60px;
+}
+
+.owl-carousel{width: 98%;padding: 0 14px 0 30px;}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-16px);
+}
+  .owl-nav button.owl-prev {
+    left: 0;
+  }
+  .owl-nav button.owl-next {
+    right: 20px;
+}
+.owl-nav button span{
+    font-size: 30px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, .6);
+}
